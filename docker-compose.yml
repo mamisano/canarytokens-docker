@@ -40,6 +40,7 @@ services:
     image: thinkst/canarytokens_nginx
     ports:
      - "80:80"
+     - "443:443"
     links:
      - frontend
      - switchboard
